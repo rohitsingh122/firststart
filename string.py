@@ -28,14 +28,23 @@ print((a+b)*2)
 c = "you can learn %s easily, and %s too" %(a,b)
 print(c)
 
+city1 = "delhi"
+city2 = "calcutta"
+print("the two main cities of india are %s , %s " %(city1,city2))
+
 # f string 
 
 d =f'you can learn {a} and {b} easily'
 print(d)
+
+name1 = "amar"
+name2 = "sandeep"
+print(f"i have 2 bestfriendsyh {name1} , {name2}")
 
 #string.format
 
 e = "you can easily learn{a} and {b}".format(a=a,b=b)
 print(e)
 
-#templetes strings
+name = "rohit"
+print("my name is {}".format(name))
